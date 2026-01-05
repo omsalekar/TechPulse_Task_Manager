@@ -1,0 +1,6 @@
+@TechPulse_Task_Manager.WebAPI_HostAddress = http://localhost:5083
+
+GET {{TechPulse_Task_Manager.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
