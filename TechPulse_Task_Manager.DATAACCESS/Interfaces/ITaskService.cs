@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TechPulse_Task_Manager.MODELS.DTO;
-using TechPulse_Task_Manager.WebAPI.DTO;
+ 
 
 namespace TechPulse_Task_Manager.DATAACCESS.Interfaces
 {

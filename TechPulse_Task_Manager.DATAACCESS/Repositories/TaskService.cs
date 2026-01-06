@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 using TechPulse_Task_Manager.DATAACCESS.Interfaces;
 using TechPulse_Task_Manager.MODELS.DTO;
 using Microsoft.Data.SqlClient;
-using TechPulse_Task_Manager.WebAPI.Data;
+ 
 using Microsoft.EntityFrameworkCore;
+using TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext;
 
 namespace TechPulse_Task_Manager.DATAACCESS.Repositories
 {
