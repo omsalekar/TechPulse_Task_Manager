@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TechPulse_Task_Manager.MODELS.DTO;
+using TechPulse_Task_Manager.WebAPI.DTO;
 
 namespace TechPulse_Task_Manager.DATAACCESS.Interfaces
 {
-    public interface IUnitOfWork
+    public interface ITaskService
     {
-        public IEmployeeService _employeeService { get; }
-        public ITaskService _taskService { get; }
+        Task<ResponseDTO> RegisterTaskAsync(TaskRegistrationDTO register);
     }
 }
