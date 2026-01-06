@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace TechPulse_Task_Manager.WebAPI.Models
+namespace TechPulse_Task_Manager.MODELS.Models
 {
     public class Roles
     {

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace TechPulse_Task_Manager.WebAPI.Models
+namespace TechPulse_Task_Manager.MODELS.Models
 {
     public class Tasks
     {

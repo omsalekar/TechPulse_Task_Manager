@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TechPulse_Task_Manager.WebAPI.Data;
-using TechPulse_Task_Manager.WebAPI.DTO;
+using TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext;
+
 
 namespace TechPulse_Task_Manager.WebAPI.Controllers
 {

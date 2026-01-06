@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using TechPulse_Task_Manager.DATAACCESS.Interfaces;
 using TechPulse_Task_Manager.DATAACCESS.Repositories;
-using TechPulse_Task_Manager.WebAPI.Data;
+using TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
