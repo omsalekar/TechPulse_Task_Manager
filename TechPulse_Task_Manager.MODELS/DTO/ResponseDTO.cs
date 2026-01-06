@@ -8,5 +8,6 @@ namespace TechPulse_Task_Manager.MODELS.DTO
         public string Message { get; set; } = string.Empty;
         public int RowsAffected { get; set; }
 
+        public int RowAffected { get; set; }
     }
 }

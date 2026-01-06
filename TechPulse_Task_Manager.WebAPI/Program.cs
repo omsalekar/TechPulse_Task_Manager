@@ -1,4 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+ 
+using TechPulse_Task_Manager.DATAACCESS.Repositories;
+using TechPulse_Task_Manager.DATAACCESS.Interfaces;
 using TechPulse_Task_Manager.DATAACCESS.Interfaces;
 using TechPulse_Task_Manager.DATAACCESS.Repositories;
 using TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext;
@@ -12,6 +15,9 @@ builder.Services.AddDbContext<TaskDbContext>(options =>
         builder.Configuration.GetConnectionString("DefaultConnection")
     )
 );
+
+builder.Services.AddScoped<ITaskService, TaskService>();
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 builder.Services.AddScoped<IEmployeeService,EmployeeService>();
