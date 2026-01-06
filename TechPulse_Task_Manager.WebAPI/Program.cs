@@ -1,4 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using TechPulse_Task_Manager.DATAACCESS.Interfaces;
+using TechPulse_Task_Manager.DATAACCESS.Repositories;
 using TechPulse_Task_Manager.WebAPI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,6 +12,9 @@ builder.Services.AddDbContext<TaskDbContext>(options =>
     )
 );
 
+
+builder.Services.AddScoped<IEmployeeService,EmployeeService>();
+builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 builder.Services.AddControllers();
 
 // ✅ ADD SWAGGER

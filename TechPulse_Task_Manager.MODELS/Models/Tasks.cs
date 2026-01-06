@@ -10,7 +10,7 @@ namespace TechPulse_Task_Manager.WebAPI.Models
         public int EmployeeId { get; set; }
 
         [ForeignKey(nameof(EmployeeId))]
-        public Employees Employee { get; set; }
+        public Employees? Employee { get; set; } 
         public string TaskTitle { get; set; } = string.Empty;
         public string TaskDescription { get; set; } = string.Empty;
         public DateTime TaskDate { get; set; }
