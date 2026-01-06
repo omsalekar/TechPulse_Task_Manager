@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TechPulse_Task_Manager.WebAPI.Data;
+using TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext;
 
 #nullable disable
 

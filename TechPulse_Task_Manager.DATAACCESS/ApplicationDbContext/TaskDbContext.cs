@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TechPulse_Task_Manager.WebAPI.Models;
+using TechPulse_Task_Manager.MODELS.Models;
 
-namespace TechPulse_Task_Manager.WebAPI.Data
+
+namespace TechPulse_Task_Manager.DATAACCESS.ApplicationDbContext
 {
     public class TaskDbContext : DbContext
     {
